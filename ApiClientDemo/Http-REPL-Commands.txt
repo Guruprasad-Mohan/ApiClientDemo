@@ -1,0 +1,8 @@
+﻿THE SEQUENCE OF COMMANDS TO BE USED WITH THE EXAMPLE.
+======================================================
+httprepl
+connect https://localhost:44380/api
+cd states
+get
+post -h Content-Type=application/json -c "\"New State"\""
+delete "State 1"
